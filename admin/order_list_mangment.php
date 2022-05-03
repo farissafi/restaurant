@@ -44,7 +44,7 @@ if (!isset($_SESSION['id'])) {
                 <div class="d-flex justify-content-between">
                     <h4>ادارة الطلبات</h4>
                 </div>
-                <table class="table">
+                <table class="table table-hover text-center">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
@@ -88,6 +88,11 @@ if (!isset($_SESSION['id'])) {
                 </table>
             </div>
         </div>
+        <footer>
+            <div class="py-4 text-center bg-light animate__animated animate__fadeInUp">
+                <h5>ادارة مطعم المدينة | اسطنبول</h5>
+            </div>
+        </footer>
     </div>
     <script src="../js/bootstrap.js"></script>
 </body>

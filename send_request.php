@@ -2,6 +2,7 @@
 <html lang="ar" dir="rtl">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/bootstrap.rtl.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@650&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
@@ -10,14 +11,15 @@
     <title>Document</title>
 </head>
 <style>
-     body {
+    body {
         font-family: 'Cairo', sans-serif;
     }
 </style>
+
 <body>
     <div class="container-fluid">
         <!-- star nav -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary text-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary text-light animate__animated animate__fadeInDown">
             <div class="container-fluid">
                 <a class="navbar-brand text-light" href="#">مطعم المدينة</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +51,7 @@
         }
         ?>
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 animate__animated animate__fadeInRight">
                 <div class="card">
                     <img height="300px" src="images/<?php if (isset($row['image'])) {
                                                         echo $row['image'];
@@ -89,7 +91,7 @@
 
 
             ?>
-            <div class="col-6 pt-5">
+            <div class="col-6 animate__animated animate__fadeInLeft pt-5">
                 <form method="POST" class="text-center px-5">
 
                     <h4>يرجى تعبئة البيانات ليصل الطلب</h4>
@@ -105,7 +107,7 @@
             </div>
         </div>
         <!-- star footer -->
-        <footer class="py-3 bg-secondary text-light text-center">
+        <footer class="py-3 bg-secondary text-light text-center animate__animated animate__fadeInUp">
             <h6>جميع الحقوق محفوظة لمطعم المدينة</h6>
         </footer>
         <!-- end  footer -->
