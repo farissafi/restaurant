@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
 </style>
 
 <body>
-    <div class="container w-25 text-center animate__animated animate__backInDown">
+    <div class="container w-25 text-center animate__animated animate__backInDown my-5">
         <img src="../images/logo.png" alt="">
         <form method="POST" class="border p-4">
             <?php if (isset($msg)) {
